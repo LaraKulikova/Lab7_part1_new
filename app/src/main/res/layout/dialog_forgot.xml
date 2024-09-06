@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="214dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textViewForgotPass"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Введите адрес электронной почты:"
+            android:textColor="@color/lavander"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextEmailInForgotPass"
+            android:layout_width="280dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Введите email"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonResetPass"
+                android:layout_width="147dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="10dp"
+                android:text="Подтвердить" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:text="Отменить" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

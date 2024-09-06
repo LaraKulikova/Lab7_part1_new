@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423818243844",
+    "project_id": "lab7-part1-new",
+    "storage_bucket": "lab7-part1-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423818243844:android:67a49640be970633b6ea51",
+        "android_client_info": {
+          "package_name": "com.uni.lab7_part1_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdQTxenJjxN6gcGmke8Syhx2W--Mz_Nmo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
