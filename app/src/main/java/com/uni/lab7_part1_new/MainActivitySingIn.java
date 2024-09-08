@@ -169,4 +169,9 @@ public class MainActivitySingIn extends AppCompatActivity {
         }
     });
 
+    public void enterToChoise(View view){
+        Intent  intent = new Intent(this, MainActivityChoice.class);
+        startActivity(intent);
+    }
+
 }

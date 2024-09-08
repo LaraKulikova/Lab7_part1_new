@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Lab7_part1_new"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivityFirebase"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivityFirestore"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityChoice"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivitySingUp"
             android:exported="false" />
         <activity
